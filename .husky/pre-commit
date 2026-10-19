@@ -1,0 +1,2 @@
+cd DATAFACT
+npx lint-staged

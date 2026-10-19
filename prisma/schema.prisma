@@ -1,0 +1,27 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model ValuationMetric {
+  id           String   @id @default(uuid())
+  datasetName  String
+  category     String
+  valuation    Float
+  confidence   Float
+  recordsCount Int
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  action    String
+  actor     String   @default("system")
+  details   String
+  timestamp DateTime @default(now())
+}
