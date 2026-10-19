@@ -1,11 +1,11 @@
-# DataFactor Enterprise Analytics Platform
+# Data Enterprise Analytics Platform
 
 [![CI Pipeline](https://github.com/datafactor/enterprise-analytics/actions/workflows/CI.yml/badge.svg)](https://github.com/datafactor/enterprise-analytics/actions/workflows/CI.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript Strict Mode](https://img.shields.io/badge/typescript-strict-blue.svg)](https://www.typescriptlang.org/)
 [![Valuation Tier](https://img.shields.io/badge/DataFactor-Valuation%20%245k%2B-emerald.svg)](https://github.com)
 
-An enterprise-grade, production-ready full-stack application architected from scratch to satisfy elite **DataFactor repository valuation standards ($5,000+ licensing tier)**.
+An enterprise-grade, production-ready full-stack application architected from scratch to satisfy elite **Data repository valuation standards ($5,000+ licensing tier)**.
 
 ---
 
